@@ -171,6 +171,7 @@ img {
     color: var(--color-iris);
     cursor: pointer;
     padding: 12px 24px;
+    border: 1px solid var(--color-cornflower);
  }
 .button-link:hover,
 .button-link:focus {
@@ -181,7 +182,7 @@ img {
 .button-btn:focus {
     color: var(--color-white);
     background-color: #404BBF;
-    /* border: 1px solid transparent */
+    border: 1px solid transparent
 }
 .visually-hidden {
     position: fixed;
@@ -229,6 +230,7 @@ img {
     letter-spacing: 0.02em;
     color: var(--color-naviblue);
     text-transform: capitaliz;
+    margin-bottom: 8px
 }
 
 .team {
