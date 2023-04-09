@@ -118,6 +118,9 @@ img {
     align-items: center;
     margin-right: auto;
 }
+.header-page{
+    border-bottom: 1px solid #e7e9fc
+}
 
 
 
@@ -178,6 +181,7 @@ img {
 .button-btn:focus {
     color: var(--color-white);
     background-color: #404BBF;
+    /* border: 1px solid transparent */
 }
 .visually-hidden {
     position: fixed;
@@ -283,6 +287,7 @@ img {
 .worker {
     text-align: center;
     padding: 32px 16px;
+    border-radius: 0px 0px 4px 4px;
 }
 /* FOOTER */
 .footer-logo {
