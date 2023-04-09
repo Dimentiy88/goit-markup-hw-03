@@ -45,19 +45,21 @@ img {
     
 }
 .button-link,
-.button-link-p,
-.button-p {
+.button-link-btn,
+.button-btn {
     font-family: inherit;
     color: currentColor;
     cursor: pointer;
+    border: none;
 }
 
 .container {
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
-    outline: 2px solid red;
-    outline-offset: -2px;
+    /* outline: 2px solid red;
+    outline-offset: -2px; */
+
   }
 
 /*Header*/
@@ -154,7 +156,7 @@ img {
     display: block;
     margin: 0 auto;
  } 
- .button-p {
+ .button-btn {
     background-color: var(--color-cloud);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
@@ -165,14 +167,15 @@ img {
     letter-spacing: 0.04em;
     color: var(--color-iris);
     cursor: pointer;
+    padding: 12px 24px;
  }
 .button-link:hover,
 .button-link:focus {
     color: var(--color-white);
     background-color:#404BBF;
 }
-.button-p:hover,
-.button-p:focus {
+.button-btn:hover,
+.button-btn:focus {
     color: var(--color-white);
     background-color: #404BBF;
 }
@@ -299,5 +302,32 @@ img {
     
 }
 
+.portfolio-container {
+    gap: 24px;
+}
 
+.examples-list {
+    column-gap: 24px;
+    row-gap: 48px;
+    display: flex;
+    flex-wrap: wrap; 
+}
 
+.card {
+    /* outline: 2px solid red;
+    outline-offset: -2px; */
+    padding: 32px 16px;
+    border: 1px solid var(--color-cornflower);
+    border-top: none;
+}
+
+.card-section{
+    padding-top: 96px;
+    padding-bottom: 120px;
+}
+
+.botton-list{
+    gap: 24px;
+    justify-content: center;
+    margin-bottom: 72px;
+}
