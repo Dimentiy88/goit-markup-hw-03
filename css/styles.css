@@ -22,9 +22,9 @@ body {
 
 }
 /*reset*/
-h1 
-h2 
-h3 
+h1, 
+h2, 
+h3, 
 p {
     margin: 0;
 }
@@ -121,8 +121,10 @@ img {
 
 /*Main*/
 .section {
+    padding: 188px 0;
     background-color: var(--color-navi-blue-modal);
     color: var(-color-white);
+    
 }
 .title {
     font-size: 56px;
@@ -130,7 +132,11 @@ img {
     text-align: center;
     letter-spacing: 0.02em;
     color: var(--color-white);
+    max-width: 496px;
+    margin: 0 auto 48px;
 }
+
+
 
 .button-link {
     background-color: var(--color-iris);
@@ -143,6 +149,10 @@ img {
     letter-spacing: 0.04em;
     color: var(--color-white);
     cursor: pointer;
+    height: 56px;
+    min-width: 169px;
+    display: block;
+    margin: 0 auto;
  } 
  .button-p {
     background-color: var(--color-cloud);
@@ -173,11 +183,14 @@ img {
 
 .facts-container{
        justify-content: space-between;
+       padding: 120px 0;
 }
 
 .item {
-    width: 33%;
+   width: calc((100% - (24px*3)) /4);
+   background-color: var(--color-white);
 }
+
 
 .fact-title {
    font-weight: 500;
@@ -185,7 +198,8 @@ img {
    line-height: 1.2;
    letter-spacing: 0.02em;
    color: var(--color-naviblue);
-   margin: 12px 0 32px 0;
+   margin-bottom: 8px;
+   padding: 0;
 }
 
 .facts {
@@ -212,6 +226,7 @@ img {
 
 .team {
     background-color: var(--color-cloud);
+    padding: 120px 0;
 
 }
 
@@ -247,12 +262,26 @@ img {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color:var(--color-naviblue);
+    margin-bottom: 72px;
+    
 }
 .list-item {
-    background-color: var(--color-white);
+       gap: 24px;
+}
+.section-list{
+    gap: 24px;
+    display: flex;
+    
+}
+.container-team{
+    padding-bottom: 120px;
 }
 
-
+.worker {
+    text-align: center;
+    padding: 32px 16px;
+}
+/* FOOTER */
 .footer-logo {
     font-family: "Raleway", sans-serif;
     font-weight: 800;
@@ -261,5 +290,14 @@ img {
     text-transform: uppercase;
     color: var(--color-iris);
     letter-spacing: 0.03em;
-    margin-left: 30px;
+    margin-bottom: 16px;
+    display: inline-block;
+    
 }
+.bottom{
+    padding: 100px 0;
+    
+}
+
+
+
